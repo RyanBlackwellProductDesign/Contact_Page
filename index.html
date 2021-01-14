@@ -8,20 +8,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <div class="w3-container w3-padding-32" id="contact">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-        <p>I'm open to new opportunities. Lets chat!</p>
-        <form action="mailto:ryanblackwellproductdesign@gmail.com" target="_blank">
-          <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-          <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-          <button class="w3-button w3-black w3-section" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
-        </form>
-      </div>
-    
+    <html>
+      <body>
+      
+      <h2>Send e-mail to Ryan Blackwell Product Design:</h2>
+      
+      <form action="mailto:ryanblackwellproductdesign@gmail.com" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br>
+      E-mail:<br>
+      <input type="text" name="mail"><br>
+      Comment:<br>
+      <input type="text" name="comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+      </form>
+      
+      </body>
+      </html>
+      
 </body>
 </html>
